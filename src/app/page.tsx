@@ -23,6 +23,7 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
+          {/* Project 1 */}
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
             <h3 className="text-2xl font-semibold mb-2">Portfolio Website</h3>
             <p className="text-gray-600 mb-4">
@@ -37,6 +38,7 @@ export default function Home() {
             </a>
           </div>
 
+          {/* Project 2 */}
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
             <h3 className="text-2xl font-semibold mb-2">Landing Page Clone</h3>
             <p className="text-gray-600 mb-4">
@@ -51,6 +53,7 @@ export default function Home() {
             </a>
           </div>
 
+          {/* Project 3 */}
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
             <h3 className="text-2xl font-semibold mb-2">E-commerce UI</h3>
             <p className="text-gray-600 mb-4">
@@ -67,7 +70,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Me Section */}
+      {/* About Section */}
       <section
         id="about"
         className="w-full bg-white py-20 px-6 flex flex-col items-center text-center"
