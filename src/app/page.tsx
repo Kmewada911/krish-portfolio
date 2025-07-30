@@ -23,7 +23,6 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
-          {/* Project Card 1 */}
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
             <h3 className="text-2xl font-semibold mb-2">Portfolio Website</h3>
             <p className="text-gray-600 mb-4">
@@ -38,7 +37,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Project Card 2 */}
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
             <h3 className="text-2xl font-semibold mb-2">Landing Page Clone</h3>
             <p className="text-gray-600 mb-4">
@@ -53,7 +51,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Project Card 3 */}
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
             <h3 className="text-2xl font-semibold mb-2">E-commerce UI</h3>
             <p className="text-gray-600 mb-4">
@@ -83,7 +80,7 @@ export default function Home() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-6">
-          {['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'Tailwind CSS', 'Figma', 'GitHub'].map((skill) => (
+          {["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Figma", "GitHub"].map((skill) => (
             <span key={skill} className="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium">
               {skill}
             </span>
