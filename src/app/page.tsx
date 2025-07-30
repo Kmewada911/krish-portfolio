@@ -116,10 +116,10 @@ export default function Home() {
   id="contact"
   className="w-full bg-[#f8fafc] py-20 px-6 flex flex-col items-center text-center"
 >
-  <h2 className="text-4xl font-bold mb-4">Let’s Connect</h2>
+  <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
   <p className="text-lg text-gray-600 max-w-xl mb-8">
     Got a project, collab idea, or just want to say hi?  
-    Reach out and I’ll get back to you!
+    Reach out and I'll get back to you!
   </p>
 
   <div className="flex gap-6">
