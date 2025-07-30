@@ -119,9 +119,10 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full text-center py-6 text-gray-500 text-sm">
-        © {new Date().getFullYear()} Krish Mewada. All rights reserved.
-      </footer>
+     <footer className="w-full text-center py-6 text-gray-500 text-sm">
+  {"\u00A9"} {new Date().getFullYear()} Krish Mewada. All rights reserved.
+</footer>
+
     </main>
   );
 }
